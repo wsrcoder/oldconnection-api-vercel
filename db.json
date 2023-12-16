@@ -28,44 +28,29 @@
       "escolaridade": "5",
       "descricao_orientador": "artesanato com madeira",
       "id": 2
+    },
+    {
+      "tipo_usuario": 2,
+      "email": "orientador2@gmail.com",
+      "password": "123",
+      "nome_orientador": "Laila",
+      "sobrenome_orientador": "dos Santos",
+      "idade_orientador": "30",
+      "telefone_orientador": "31923242526",
+      "profissao": "Costureira",
+      "escolaridade": "3",
+      "descricao_orientador": "Gosto muito de costurar e gostaria de ensinar pessoas também.",
+      "id": 3
     }
   ],
   "cursos": [
     {
-      "orientador_id": 0,
-      "nome_curso": "Aulas para falar em público",
-      "descricao_curso": "Este curso tem o objetivo de ajudar pessoas com dificuldade para se expressar em público. Ao final desse curso o aluno deve perder o medo de se expressar para um plateia.",
-      "inicio_inscricoes": "01/01/2024",
-      "fim_inscricoes": "01/02/2024",
+      "orientador_id": "2",
+      "nome_curso": "curso de artesanato com madeira",
+      "descricao_curso": "Quer aprender a fazer coisas incríveis com pedaços de madeira! Se inscreve ai e venha aprender comigo!",
       "quantidade_vagas": "10",
-      "tel_contato": "4444444",
       "img_path": "imgs/curso-default.jpg",
-      "curso_etiqueta": "Indefinido",
-      "video_apresentacao": "",
-      "logradouro": "Rua das Jaboticabas",
-      "numero": "12",
-      "complemento": "CASA",
-      "bairro": "Barreiro",
-      "cep": "",
       "id": 1
-    },
-    {
-      "orientador_id": 2,
-      "nome_curso": "Pintura de paisagens",
-      "descricao_curso": "Este curso tem o objetivo de introduzir os alunos no maravilhoso mundo da pintura a fim de distrair suas mentes e criar belas telas.",
-      "inicio_inscricoes": "05/01/2024",
-      "fim_inscricoes": "04/02/2024",
-      "quantidade_vagas": "15",
-      "tel_contato": "44444444",
-      "img_path": "imgs/curso-default.jpg",
-      "curso_etiqueta": "Indefinido",
-      "video_apresentacao": "",
-      "logradouro": "Rua das Acacias",
-      "numero": "23",
-      "complemento": "São Benedito",
-      "bairro": "São Joao",
-      "cep": "",
-      "id": 2
     }
   ],
   "matriculas": []
