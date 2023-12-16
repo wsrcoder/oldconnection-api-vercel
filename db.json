@@ -15,6 +15,19 @@
       "descricao_aluno": "alguma coisa",
       "necessidades_aluno": "alguma coisa",
       "id": 1
+    },
+    {
+      "tipo_usuario": 2,
+      "email": "orientador@gmail.com",
+      "password": "123",
+      "nome_orientador": "Pedro",
+      "sobrenome_orientador": "dos Santos",
+      "idade_orientador": "30",
+      "telefone_orientador": "31987654908",
+      "profissao": "Marcineiro",
+      "escolaridade": "5",
+      "descricao_orientador": "artesanato com madeira",
+      "id": 2
     }
   ],
   "cursos": [
@@ -37,7 +50,7 @@
       "id": 1
     },
     {
-      "orientador_id": 0,
+      "orientador_id": 2,
       "nome_curso": "Pintura de paisagens",
       "descricao_curso": "Este curso tem o objetivo de introduzir os alunos no maravilhoso mundo da pintura a fim de distrair suas mentes e criar belas telas.",
       "inicio_inscricoes": "05/01/2024",
@@ -55,7 +68,5 @@
       "id": 2
     }
   ],
-  "matriculas": [
-
-  ]
+  "matriculas": []
 }
