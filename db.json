@@ -1,26 +1,21 @@
 {
   "usuarios": [
     {
-      "id": 1,
-      "nome": "Wellington",
-      "sobrenome": "",
-      "idade": "",
-      "sexo": "",
-      "tipo_usuario": 3,
-      "email": "well@gmail.com",
-      "senha": "123"
-    },
-    {
-      "id": 2,
-      "nome": "Jonas",
-      "sobrenome": "de Oliveira",
-      "idade": "65",
-      "sexo": "M",
-      "tipo_usuario": 4,
+      "tipo_usuario": 1,
       "email": "responsavel@gmail.com",
-      "senha": "123"
+      "password": "123",
+      "nome_responsavel": "Maria",
+      "sobrenome_responsavel": "da silva",
+      "idade_responsavel": "35",
+      "telefone_responsavel": "319764532",
+      "nome_aluno": "José",
+      "sobrenome_aluno": "Ferreira",
+      "idade_aluno": "65",
+      "telefone_aluno": "319878787",
+      "descricao_aluno": "alguma coisa",
+      "necessidades_aluno": "alguma coisa",
+      "id": 1
     }
-    
   ],
   "cursos": [
     {
@@ -59,5 +54,8 @@
       "cep": "",
       "id": 2
     }
+  ],
+  "matriculas": [
+
   ]
 }
