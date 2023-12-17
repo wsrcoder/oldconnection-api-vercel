@@ -20,7 +20,7 @@
       "tipo_usuario": 2,
       "email": "orientador@gmail.com",
       "password": "123",
-      "nome_orientador": "Pedro",
+      "nome_orientador": "Marcelo",
       "sobrenome_orientador": "dos Santos",
       "idade_orientador": "30",
       "telefone_orientador": "31987654908",
@@ -41,17 +41,48 @@
       "escolaridade": "3",
       "descricao_orientador": "Gosto muito de costurar e gostaria de ensinar pessoas também.",
       "id": 3
+    },
+    {
+      "tipo_usuario": 2,
+      "email": "orientador3@gmail.com",
+      "password": "123",
+      "nome_orientador": "Matheus",
+      "sobrenome_orientador": "de Oliveira",
+      "idade_orientador": "20",
+      "telefone_orientador": "31923232427",
+      "profissao": "Programador",
+      "escolaridade": "6",
+      "descricao_orientador": "Adoro computadores. Tecnologia é minha vida.",
+      "id": 4
     }
   ],
   "cursos": [
     {
       "orientador_id": "2",
       "nome_curso": "curso de artesanato com madeira",
-      "descricao_curso": "Quer aprender a fazer coisas incríveis com pedaços de madeira! Se inscreve ai e venha aprender comigo!",
-      "quantidade_vagas": "10",
+      "descricao_curso": "Quer aprender a fazer coisas incríveis com pedaços de madeira? Se inscreve ai e venha aprender comigo!",
+      "quantidade_vagas": 9,
       "img_path": "imgs/curso-default.jpg",
       "id": 1
+    },
+    {
+      "orientador_id": "3",
+      "nome_curso": "Curso de costura básico",
+      "descricao_curso": "Gostaria de convidar a todos vocês a aprender técnicas incríveis de costura!",
+      "quantidade_vagas": "15",
+      "img_path": "imgs/curso-default.jpg",
+      "id": 2
+    },
+    {
+      "orientador_id": "4",
+      "nome_curso": "Curso para aprender a mexer no YouTube",
+      "descricao_curso": "Nesse curso você vai aprender todos os passos necessários para procurar seus próprios vídeos no YouTube.",
+      "quantidade_vagas": 14,
+      "img_path": "imgs/curso-default.jpg",
+      "id": 3
     }
   ],
-  "matriculas": []
+  "matriculas": [
+
+  ]
 }
