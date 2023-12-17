@@ -75,8 +75,8 @@
       "orientador_nome": "Marcelo dos Santos",
       "nome_curso": "Curso de artesanato com madeira",
       "descricao_curso": "Quer aprender a fazer coisas incríveis com pedaços de madeira que em teoria não serviriam para nada? Se inscreva e venha aprender comigo!",
-      "quantidade_vagas": 9,
-      "img_path": "imgs/curso-default.jpg",
+      "quantidade_vagas": 1,
+      "img_path": "imgs/cursos/img_8.jpg",
       "id": 1
     },
     {
@@ -85,7 +85,7 @@
       "nome_curso": "Curso de costura básico",
       "descricao_curso": "Gostaria de convidar a todos vocês a aprender técnicas incríveis de costura!",
       "quantidade_vagas": "15",
-      "img_path": "imgs/curso-default.jpg",
+      "img_path": "imgs/cursos/img_1.jpg",
       "id": 2
     },
     {
@@ -94,7 +94,7 @@
       "nome_curso": "Curso para aprender a mexer no YouTube",
       "descricao_curso": "Nesse curso você vai aprender todos os passos necessários para procurar seus próprios vídeos no YouTube.",
       "quantidade_vagas": 14,
-      "img_path": "imgs/curso-default.jpg",
+      "img_path": "imgs/cursos/img_4.jpg",
       "id": 3
     },
     {
@@ -103,8 +103,17 @@
       "nome_curso": "Curso de tortas e salgados",
       "descricao_curso": "Quer aprender a fazer salagados de festa e tortas deliciosas para ganhar dinheiro fazendo encomendas? Inscreva-se! vou adorar te ensinar algo novo.",
       "quantidade_vagas": "19",
-      "img_path": "imgs/curso-default.jpg",
+      "img_path": "imgs/cursos/img_2.jpg",
       "id": 4
+    },
+    {
+      "orientador_id": "5",
+      "orientador_nome": "Antônia Gonçalves",
+      "nome_curso": "Curso de doces de festas",
+      "descricao_curso": "Gostaria de aprender a fazer gostusuras para as festas? Vou ensinar várias receitas deliciosas para você!",
+      "quantidade_vagas": "10",
+      "img_path": "imgs/cursos/img_3.jpg",
+      "id": 5
     }
   ],
   "matriculas": []
