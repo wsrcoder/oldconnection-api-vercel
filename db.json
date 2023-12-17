@@ -34,7 +34,7 @@
       "email": "orientador2@gmail.com",
       "password": "123",
       "nome_orientador": "Laila",
-      "sobrenome_orientador": "dos Santos",
+      "sobrenome_orientador": "de Souza",
       "idade_orientador": "30",
       "telefone_orientador": "31923242526",
       "profissao": "Costureira",
@@ -54,19 +54,34 @@
       "escolaridade": "6",
       "descricao_orientador": "Adoro computadores. Tecnologia é minha vida.",
       "id": 4
+    },
+    {
+      "tipo_usuario": 2,
+      "email": "orientador4@gmail.com",
+      "password": "123",
+      "nome_orientador": "Antônia",
+      "sobrenome_orientador": "Gonçalves",
+      "idade_orientador": "40",
+      "telefone_orientador": "31987232876",
+      "profissao": "Cozinheira",
+      "escolaridade": "4",
+      "descricao_orientador": "Sou cozinheira há 20 anos e gostaria de ensinar algumas receitas.",
+      "id": 5
     }
   ],
   "cursos": [
     {
       "orientador_id": "2",
-      "nome_curso": "curso de artesanato com madeira",
-      "descricao_curso": "Quer aprender a fazer coisas incríveis com pedaços de madeira? Se inscreve ai e venha aprender comigo!",
+      "orientador_nome": "Marcelo dos Santos",
+      "nome_curso": "Curso de artesanato com madeira",
+      "descricao_curso": "Quer aprender a fazer coisas incríveis com pedaços de madeira que em teoria não serviriam para nada? Se inscreva e venha aprender comigo!",
       "quantidade_vagas": 9,
       "img_path": "imgs/curso-default.jpg",
       "id": 1
     },
     {
       "orientador_id": "3",
+      "orientador_nome": "Laila de Souza",
       "nome_curso": "Curso de costura básico",
       "descricao_curso": "Gostaria de convidar a todos vocês a aprender técnicas incríveis de costura!",
       "quantidade_vagas": "15",
@@ -75,14 +90,22 @@
     },
     {
       "orientador_id": "4",
+      "orientador_nome": "Matheus de Oliveira",
       "nome_curso": "Curso para aprender a mexer no YouTube",
       "descricao_curso": "Nesse curso você vai aprender todos os passos necessários para procurar seus próprios vídeos no YouTube.",
       "quantidade_vagas": 14,
       "img_path": "imgs/curso-default.jpg",
       "id": 3
+    },
+    {
+      "orientador_id": "5",
+      "orientador_nome": "Antônia Gonçalves",
+      "nome_curso": "Curso de tortas e salgados",
+      "descricao_curso": "Quer aprender a fazer salagados de festa e tortas deliciosas para ganhar dinheiro fazendo encomendas? Inscreva-se! vou adorar te ensinar algo novo.",
+      "quantidade_vagas": "20",
+      "img_path": "imgs/curso-default.jpg",
+      "id": 4
     }
   ],
-  "matriculas": [
-
-  ]
+  "matriculas": []
 }
